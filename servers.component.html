@@ -1,0 +1,15 @@
+<div class="container">
+    <div class= "row">
+       <div class = col-sm-4> The server with {{serverid}} is {{serverstatus}}</div>
+       <div class = col-sm-4>
+            <button class="btn btn-primary" [disabled]="!allowNewServer">abc</button></div>
+       <div class = col-sm-4>{{getserverstatus()}}</div>
+    <div class ="row">
+        <div class = col-xs-6>
+            <p [innerText]="allowNewServer"></p>    
+        </div>
+    </div>
+
+    </div>
+</div>
+
